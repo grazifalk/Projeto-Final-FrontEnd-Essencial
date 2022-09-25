@@ -36,10 +36,14 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 ## ✒️ Autores
 
 * ***Yuri Ramos de Oliveira*** - *Desenvolvimento do código* - [Yuri-Ramos](https://github.com/Yuri-Ramos)
--***Yuri Ramos de Oliveira***  - *Desenvolvimento do código* - [Graziela Falk](https://github.com/grazifalk)
--***Yuri Ramos de Oliveira***  - *Desenvolvimento do código* - [Quezia menezes](https://github.com/QueziaMenezes)
--***Yuri Ramos de Oliveira*** - *Desenvolvimento do código* -  [Anderson Andrade](https://github.com/)
--***Yuri Ramos de Oliveira*** - *Desenvolvimento do código* -  [Gabriel Mendes}(https://github.com/)
+ 
+-***Graziela Falk***  - *Desenvolvimento do código* - [Graziela Falk](https://github.com/grazifalk)
+
+-***Quezia menezes***  - *Desenvolvimento do código* - [Quezia menezes](https://github.com/QueziaMenezes)
+
+-***Anderson Andrade** - *Desenvolvimento do código* -  [Anderson Andrade](https://github.com/)
+
+-***Gabriel Mendes*** - *Desenvolvimento do código* -  [Gabriel Mendes](https://github.com/)
 
 <div>
 
