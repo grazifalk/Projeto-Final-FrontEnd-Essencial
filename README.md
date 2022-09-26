@@ -43,9 +43,9 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 * ***Quezia menezes***  - *Desenvolvimento do código* - [Quezia menezes](https://github.com/QueziaMenezes)
 
-* ***Anderson Andrade*** - *Desenvolvimento do código* -  [Anderson Andrade](https://github.com/)
+* ***Anderson Andrade*** - *Desenvolvimento do código* -  [Anderson Andrade](https://github.com/Afa1908)
 
-* ***Gabriel Mendes*** - *Desenvolvimento do código* -  [Gabriel Mendes](https://github.com/)
+* ***Gabriel Mendes*** - *Desenvolvimento do código* -  [Gabriel Mendes](https://github.com/MendesGabrielRJ)
 
 <div>
 
