@@ -1,47 +1,41 @@
-/* footer */
-#contact-area {
+footer {
+    padding-top: 10px;
+    height: 50px;
+    background-color: #0D75BC;
     text-align: center;
+    color: #fff;
 }
-.contact-box{
-    padding-bottom: 50px;
-    margin-bottom:50px;
-    border-bottom: 1px solid #3ec1d5;
 
+.footer a {
+    color: #fff;
 }
-.contact-box{
-    color: #444;
-    border: solid 1px #444;
-    border: radius 50%;
-    width: 55px;
-    height: 55px;
-    line-heigth: 55px;
-    font-size: 24 px;
-    margin-bottom: 20px; 
-}
-.contact-box p{
-    font-size: 16px;
 
+.footer a:hover {
+    color: #535552;
 }
-.contact-box title{
-    font-weight: bold ;
-    color: #3ec1d5;
-}
-#msg-box p {
-font-size: 22PX;
 
+.navbar {
+    background-color: #0D75BC;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-#contact-form input[type="text"],#contact-form input[type="email"],#contact-form textarea {
-    margin-bottom: 15px;
-    border-radius: 0px;
+
+.nav-item a {
+    color: #fff;
 }
-#contact-form .main-bnt{
-    width:120px;
-    height:50px ;
+
+.nav-item a:hover {
+    color: #535552;
 }
-/* copy-area */
-#copy-area{
-    background-color: black;
+
+.btn {
+    color: #fff;
+    border-color: #fff;
 }
-#copy-area .conteiner {
-    background-color: black;
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover {
+    /* color: var(--bs-btn-hover-color); */
+    background-color: #fff;
+    border-color: #535552;
+    color: #535552;
 }
