@@ -97,5 +97,8 @@ footer {
 .social a {
     color: #fff;
     padding-right: 15px;
+}
 
+.videos {
+    display: center;
 }
