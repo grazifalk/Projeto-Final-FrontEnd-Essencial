@@ -88,8 +88,13 @@ footer {
 
 .btn:first-child:hover,
 :not(.btn-check)+.btn:hover {
-    /* color: var(--bs-btn-hover-color); */
     background-color: #fff;
     border-color: #535552;
     color: #535552;
+}
+
+.social a {
+    color: #fff;
+    padding-right: 15px;
+
 }
