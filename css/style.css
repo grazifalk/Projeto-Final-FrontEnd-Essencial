@@ -102,3 +102,12 @@ footer {
 .videos {
     display: center;
 }
+
+main {
+    margin-top: 150px;
+}
+
+.categoria {
+    margin-top: 5px;
+    color: #0D75BC;
+}
