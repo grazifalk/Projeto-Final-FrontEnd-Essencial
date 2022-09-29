@@ -136,26 +136,10 @@ main {
 
 /* pag sobre */
 .socials i {
-<<<<<<< HEAD
-        color: #000;
-        font-size: 24px;
-}
-hr {
-    list-style: 2px solid #000;
-}
-
-.texto-sobre {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-=======
     color: #000;
     font-size: 24px;
-<<<<<<< HEAD
 }
 
 .autores-dois {
 margin-top: 20px;
-=======
->>>>>>> 69e26a42eadb4c360f36852f8d0adf06499a354f
->>>>>>> f8c2694d5ef4a2ea701dbe0fd25bcf0a899d6114
 }
