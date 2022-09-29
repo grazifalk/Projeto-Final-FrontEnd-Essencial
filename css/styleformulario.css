@@ -20,3 +20,11 @@ body {
   form, .alert {
     margin-bottom: 0;
   }
+  /* validaçoes no formulario de contato */
+
+  input:invalid, textarea:invalid{
+    border-color: red;
+  }
+  input:valid, textarea:valid{
+    border-color: green;
+  }
