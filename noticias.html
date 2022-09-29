@@ -76,79 +76,88 @@
     </header>
 
     <main>
+        <div class="container pag-noticias">
 
-        <h1 class="categoria" style="text-align: center;">Notícias</h1>
-        <br>
+            <div class="row mt-lg-4 justify-content-center">
+                <!-- Carousel -->
+                <div class="col-lg-8 carousel">
+                    <!-- buttons -->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <!-- imagens -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="img/todo-caminho-ate-aqui.jpg" class="d-block w-100" alt="ti">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>VIVENDO DOIS ANOS EM DOIS MESES</h5>
+                                    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                            <a href="/home.html"><img src="./img/home-dois.jpg" class="d-block w-100" alt="códigos"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>PÁGINA INICIAL</h5>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <div class="col-lg-4">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
 
-        <div class="card mb-3 card-categoria" style="max-width: 540px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="..." class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    <div class="mt-4">
+                        <p> Para quem não percebeu, toda essa caminhada da Residência em TIC - Desenvolvimento FullStack, esse longo período, amizades feitas, desfeitas e feitas novamente,
+                            as parcerias para a vida se formando em cada grupo, professor indo "comprar cigarro" e toda essa jornada de anos se passaram em apenas dois meses.
+                            Começando por Lógica de Programação, onde experimentamos a síndrome do abandono e, em sequência, a necessidade da adaptação rápida (o que foi de grande importância para 
+                            a vida profissional futura). Logo após vimos Banco de Dados e percebemos que não era um banco feito de dados e sim a representação da Hora do Pesadelo. Nessa matéria
+                            os alunos já estavam mais unidos, pois já tinham um inimigo em comum, o DBeaver. Mas, com muita força de vontade e persistência, foi "dado" a volta por cima.
+                            Nove dias depois começa POO, o terror mais temido por todas as gerações de alunos residentes. Porém, foi o momento onde os alunos se uniram ainda mais, sendo possível
+                            reconhecer na prática que juntos podemos fazer qualquer coisa, até surtar e chorar. Agora se finaliza mais uma etapa, que é o FrontEnd Essencial, mostrando que sempre depois da tempestade
+                            existe um arco íris, um arco íris laranja (html), azul (css) e amarelo (js), provando que no fim do arco íris você não encontra um pote de ouro, mas sim a oportunidade
+                            de dormir uma noite de sono inteira e a chance de descansar por algumas horas, depois de noites em claro e amanhã, (30/09), se inicia API e recomeça tudo outra vez.
+                            Animados?</p>
+                            <p>Acompanhem na próxima semana o tema "DURMO POIS A MATÉRIA ACABOU OU SURTO POIS UMA NOVA JÁ COMEÇOU?"</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <br>
-        <div class="card mb-3 card-categoria" style="max-width: 540px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="..." class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <hr>
+
+                <div>
+
+                    <div class="row card-autor justify-content-center align-items-center">
+                        <div class="col-2">
+                            <img width="180" src="https://avatars.githubusercontent.com/u/112131868?v=4" alt="foto Quezia"
+                                class="img-fluid rounded-circle" />
+                        </div>
+                        <div class="col-6">
+                            <br>
+                            <h5 style="text-align: left;">Quézia Menezes</h5>
+                            <br>
+                            <p style="text-align: left;">29 anos, estudante de música, faço teatro nas horas vagas e
+                                recém chegada ao mundo da programação. Porém, desde já, apaixonada por esse vasto
+                                universo.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <br>
-
-    <h2 class="categoria" style="text-align: center">Vídeos Relacionados</h2>
-
-
-    <div class="container videos">
-        <div class="row mt-4 align-items-center justify-content-center">
-
-            <div class="col-lg-6">
-                <div class="video">
-                    <iframe width="600" height="360" src="https://www.youtube.com/embed/vvx4iiGh2lM"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-
-    <div class="row mt-4 align-items-center justify-content-center">
-        <div class="col-3 left">
-            <div class="video">
-                <iframe width="270" height="170" src="https://www.youtube.com/embed/wcVVXUV0YUY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-3 right">
-            <div class="video">
-                <iframe width="270" height="170" src="https://www.youtube.com/embed/wcVVXUV0YUY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
+    </main>
     <br>
-</main>
 
     <footer>
         <div class="container footer">
