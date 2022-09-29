@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>G4 News</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logomarca" href="home.html"><img src="img/logomarca-clara.png" width="100px"
+                        alt="logomarca"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="fale-conosco.html">Fale Conosco</a>
+                        </li>
+                    </ul>
+                    <!-- Botão -->
+                    <div class="button">
+                        <div class="ball"></div>
+                    </div>
+                    <script>
+                        document.querySelector('.ball').addEventListener('click', (e) => {
+                            e.target.classList.toggle('ball-move');
+                            document.body.classList.toggle('dark');
+                        });
+                    </script>
+                    <!-- fim do botão -->
+                    <div class="social">
+                        <a href="https://pt-br.facebook.com/serratecoficial/" target="_blank"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/serratecoficial/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/serratecoficial/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UC2pvxl7H3IK2X6z9XZ3xsyQ" target="_blank"><i
+                                class="bi bi-youtube"></i></a>
+                        <a href="https://github.com/Material-Didatico-Serratec" target="_blank"><i
+                                class="bi bi-github"></i></a>
+
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar..."
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-success" type="submit">Ok</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="serracast-h1" style="text-align: center;">Entrevista com Rafael Gomez</h1>
+        <br><br><br><br><br>
+        <div class="card mb-3 card-audios" style="max-width: 640px;">
+            <div class="row no-gutters align-items-center justify-content-center">
+                <div class="col-md-4">
+                    <img src="img/rafael.JPG" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Rafael Gomez</h5>
+                        <p>Residente da turma 07 - Ciclo 2022.2</p>
+
+                        <audio controls>
+                            <source src="msc/entrevista-rafael.mp3" type="audio/mpeg">
+                        </audio>
+                        <br>
+                        <a href="https://www.instagram.com/rafael.gomeez/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rafael-gomes-1303ab173/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/rafagomes10" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br><br><br><br>
+        <hr>
+        <div>
+
+            <div class="row card-autor justify-content-center align-items-center">
+                <div class="col-2">
+                    <img width="180" src="img/graziela.jpeg" alt="" class="img-fluid rounded-circle" />
+                </div>
+                <div class="col-6">
+                    <br>
+                    <h5 style="text-align: left;">Graziela Falk</h5>
+                    <br>
+                    <p style="text-align: left;">Aos 32 anos, finalmente se entregou à paixão pela programação e
+                        está vivendo esse momento intensamente. Nas horas vagas, é colecionadora e produz
+                        conteúdos nostálgicos.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer">
+            Desenvolvido por <a href="https://github.com/Yuri-Ramos/Trab_Final_FrontG4" target="_blank">Grupo 4</a>
+            &copy;2022
+        </div>
+    </footer>
+</body>
+
+</html>
