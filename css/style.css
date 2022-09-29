@@ -128,7 +128,12 @@ main {
 .socials i {
         color: #000;
         font-size: 24px;
-
+}
 hr {
     list-style: 2px solid #000;
+}
+
+.texto-sobre {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
 }
