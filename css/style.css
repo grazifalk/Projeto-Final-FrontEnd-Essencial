@@ -115,3 +115,12 @@ main {
 .button-categorias {
     width: 120px;
 }
+
+.categoria h2 {
+    color: #0D75BC;
+    font-size: smaller;
+}
+
+.card-categoria {
+    margin: 0 auto;
+}
