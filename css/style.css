@@ -128,4 +128,7 @@ main {
 .socials i {
         color: #000;
         font-size: 24px;
+
+hr {
+    list-style: 2px solid #000;
 }
