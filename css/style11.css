@@ -107,7 +107,7 @@ main {
     margin-top: 150px;
 }
 
-.categoria, .serracast-h1, .entrevistado-h1 {
+.categoria, .serracast-h1 {
     margin-top: 5px;
     color: #0D75BC;
 }
@@ -136,21 +136,31 @@ main {
 
 /* pag sobre */
 .socials i {
-    color: #000;
-    font-size: 24px;
+<<<<<<< HEAD
+        color: #000;
+        font-size: 24px;
+}
+hr {
+    list-style: 2px solid #000;
 }
 
-.cards-autores-dois {
-    margin-top: 20px;
-}
-
+<<<<<<< HEAD
 .card-img {
-    padding: 10px; 
-    padding-top: 28px;
- 
+   padding: 10px; 
+   padding-top: 28px;
+
 }
 
 h5 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+=======
+.texto-sobre {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+=======
+    color: #000;
+    font-size: 24px;
+>>>>>>> 69e26a42eadb4c360f36852f8d0adf06499a354f
+>>>>>>> f8c2694d5ef4a2ea701dbe0fd25bcf0a899d6114
 }
