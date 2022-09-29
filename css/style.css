@@ -124,3 +124,7 @@ main {
 .card-categoria {
     margin: 0 auto;
 }
+
+hr {
+    list-style: 2px solid #000;
+}
