@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="shortcut icon"
+      href="./img/logomarca-clara.png"
+      type="image/x-icon"
+    />
+    <title>G4 News</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand logomarca" href="home.html"><img src="img/logomarca-clara.png" width="100px"
+                        alt="logomarca"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="fale-conosco.html">Fale Conosco</a>
+                        </li>
+                    </ul>
+                    <!-- Botão -->
+                    <div class="button">
+                        <div class="ball"></div>
+                    </div>
+                    <script>
+                        document.querySelector('.ball').addEventListener('click', (e) => {
+                            e.target.classList.toggle('ball-move');
+                            document.body.classList.toggle('dark');
+                        });
+                    </script>
+                    <!-- fim do botão -->
+                    <div class="social">
+                        <a href="https://pt-br.facebook.com/serratecoficial/" target="_blank"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/serratecoficial/" target="_blank"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/serratecoficial/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://www.youtube.com/channel/UC2pvxl7H3IK2X6z9XZ3xsyQ" target="_blank"><i
+                                class="bi bi-youtube"></i></a>
+                        <a href="https://github.com/Material-Didatico-Serratec" target="_blank"><i
+                                class="bi bi-github"></i></a>
+
+                    </div>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar..."
+                            aria-label="Pesquisar">
+                        <button class="btn btn-outline-success" type="submit">Ok</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="entrevistado-h1" style="text-align: center;">Entrevista com Brenda Folly</h1>
+        <br>
+
+
+        <div class="card mb-3 card-categoria" style="max-width: 540px;">
+            <div class="row no-gutters align-items-center justify-content-center">
+                <div class="col-md-4">
+                    <img src="img/marcia.jpeg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bolder;">Marcia Lima</h5>
+                        <p>Residente da turma 07 - Ciclo 2022.2</p>
+                        <div class="social-entrevistado">
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/m%C3%A1rcia-lima-994547233" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+                            <a href="https://github.com/marcialim" target="_blank"><i
+                                    class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                style="font-weight: bolder;">
+                                Quais eram suas perspectivas quando entrou no Serratec?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Desde o primeiro passo do processo seletivo a ansiedade já era grande, comemorava a cada conquista.
+Meus planos eram de que daria pra trabalhar, fazer algo em casa e estudar rsrs, doce ilusão, mal dá tempo de absorver um assunto e já vem outro. Quando estamos no começo pensamos que tudo será fácil, um misto de alegria e medo invade você.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                style="font-weight: bolder;">
+                                Como está se sentindo no momento atual?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Atualmente estamos na metade do curso, o cansaço é extremo, o psicológico já era 🤭 devo ter absorvido metade do conhecimento passado, a expectativa é de conseguir rever as aulas, refazer os exercícios, a realidade é que temos que focar nos trabalhos finais de cada matéria e não dá tempo nem de descansar, conteúdo de 4 anos em 5 meses 😱.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                style="font-weight: bolder;">
+                                O que espera daqui pra frente?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Ainda mais conteúdo, menos tempo, mais pressão. É nessa hora que você tem que mostrar a sua força, focar no teu objetivo, se unir com quem te puxa pra frente, seja no curso ou na vida.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                                style="font-weight: bolder;">
+                                Você tem alguma dica ou conselho, para os próximos residentes?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                ✅ Se organize para ficar de preferência com todo o seu tempo disponível para o curso.
+<br>✅ Confie nos professores em qualquer ocasião, eles sabem ajudar e te orientar.
+<br>✅ Tente aproveitar todo o material extra que os professores orientarem, isso vai te ajudar muito.
+<br>✅ Não se preocupe se você não se alinhar bem em algum grupo, a roda gira e logo você estará junto com quem mais se parece com você.
+<br>✅ Você vai chorar, se desesperar, querer desistir, nesse caso volte ao meu primeiro item ☺
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                                style="font-weight: bolder;">
+                                MINHA TRAJETÓRIA
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                ✅1969 - Nasci no Rio de Janeiro. 
+<br>✅ 1979 - cresci, já aprendendo a trabalhar. 
+<br>✅ 1985 - Nasceu minha filha Rubia Carolina. 
+<br>✅ 1988 - Nasceu meu filho Luiz Eduardo. 
+<br>✅ 1991 - Nasceu meu filho Leonardo 
+<br>✅ 2008 - Terminei o ensino médio 
+<br>✅ 2009 - Nasceu 1° neto. 
+<br>✅ 2010 - Faleceu meu pai. 
+<br>✅ 2011 - Nasceu 2° neta. 
+<br>✅ 2021 - Casei com Luciana, me tornei madrasta da Luana. 
+<br>✅ 2022 - Me formei no SERRATEC
+<br>✅2023 - comecei a trabalhar na ALTERDATA
+<br>✅2025 - Fui promovida. 
+
+Quem sou eu? 
+Márcia Lima da Silva
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+        </div>
+        <br>
+<hr>
+        <div>
+
+            <div class="row card-autor justify-content-center align-items-center">
+                <div class="col-2">
+                    <img width="180" src="img/graziela.jpeg" alt=""
+                        class="img-fluid rounded-circle" />
+                </div>
+                <div class="col-6">
+                    <br>
+                    <h5 style="text-align: left;">Graziela Falk</h5>
+                    <br>
+                    <p style="text-align: left;">Aos 32 anos, finalmente se entregou à paixão pela programação e
+                        está vivendo esse momento intensamente. Nas horas vagas, é colecionadora e produz
+                        conteúdos nostálgicos.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </main>
+
+    <footer>
+        <div class="container footer">
+            Desenvolvido por <a href="https://github.com/Yuri-Ramos/Trab_Final_FrontG4" target="_blank">Grupo 4</a>
+            &copy;2022
+        </div>
+    </footer>
+</body>
+
+</html>
