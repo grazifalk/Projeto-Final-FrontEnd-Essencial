@@ -124,3 +124,8 @@ main {
 .card-categoria {
     margin: 0 auto;
 }
+/* pag sobre */
+.socials i {
+        color: #000;
+        font-size: 24px;
+}
