@@ -124,14 +124,6 @@ main {
 .card-categoria {
     margin: 0 auto;
 }
-/* pag sobre */
-.socials i {
-        color: #000;
-        font-size: 24px;
-
-hr {
-    list-style: 2px solid #000;
-}
 
 .card-audios {
     margin: 0 auto;
@@ -140,4 +132,10 @@ hr {
 .bi-linkedin-prof, .bi-github-prof {
     font-size: 25px;
     padding-right: 10px;
+}
+
+/* pag sobre */
+.socials i {
+    color: #000;
+    font-size: 24px;
 }
