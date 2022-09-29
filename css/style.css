@@ -107,7 +107,7 @@ main {
     margin-top: 150px;
 }
 
-.categoria {
+.categoria, .serracast-h1 {
     margin-top: 5px;
     color: #0D75BC;
 }
@@ -124,8 +124,19 @@ main {
 .card-categoria {
     margin: 0 auto;
 }
+
+.card-audios {
+    margin: 0 auto;
+}
+
+.bi-linkedin-prof, .bi-github-prof {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
 /* pag sobre */
 .socials i {
+<<<<<<< HEAD
         color: #000;
         font-size: 24px;
 }
@@ -136,4 +147,8 @@ hr {
 .texto-sobre {
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
+=======
+    color: #000;
+    font-size: 24px;
+>>>>>>> 69e26a42eadb4c360f36852f8d0adf06499a354f
 }
