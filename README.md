@@ -7,7 +7,7 @@ Trabalho final de front End
 </div>
 
 
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=PROJETO%20FINALIZADO&color=GREEN&style=for-the-badge)
 
 --- 
 
@@ -41,7 +41,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
  
 * ***Graziela Falk***  - *Desenvolvimento do código* - [Graziela Falk](https://github.com/grazifalk)
 
-* ***Quezia menezes***  - *Desenvolvimento do código* - [Quezia menezes](https://github.com/QueziaMenezes)
+* ***Quezia Menezes***  - *Desenvolvimento do código* - [Quezia Menezes](https://github.com/QueziaMenezes)
 
 * ***Anderson Andrade*** - *Desenvolvimento do código* -  [Anderson Andrade](https://github.com/Afa1908)
 
